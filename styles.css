@@ -4,8 +4,15 @@ body {
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color:#88b9bc;
+    padding: 40px;
+}
+
 h1 {
-    background-color: rgb(89, 170, 170);
+    background-color: rgb(192, 111, 149);
     font-family: 'Times New Roman', Times, serif;
     border: #fff, solid, 3px;
     border-radius: 15px;
@@ -25,7 +32,7 @@ h2 {
 }
 
 h3 {
-    border-left: double 20px #245870;
+    border-left: double 20px #36677d;
     border-radius: 30px;
     padding-left: 15px;
 }
