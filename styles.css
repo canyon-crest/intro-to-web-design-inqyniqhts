@@ -1,5 +1,31 @@
 body {
     background-color: rgb(190, 226, 247);
-    color:rgb(70, 39, 84);
-     font-family:'Times New Roman';
+    color:rgb(98, 34, 128);
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    background-color: rgb(89, 170, 170);
+    font-family: 'Times New Roman', Times, serif;
+    border: #fff, solid, 3px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+    text-align: center;
+    margin:0px auto;
+}
+
+h2 {
+    background-color:blanchedalmond;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+
+}
+
+h3 {
+    border-left: double 20px #245870;
+    border-radius: 30px;
+    padding-left: 15px;
 }
