@@ -65,3 +65,21 @@ a:active{
     color: rgb(196, 36, 19);
 }
 
+#pic1 {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#pic3 {
+    float: right;
+}
+
+/* Class rule */
+.highlight {
+    font-weight: bold;
+    background-color:azure;
+    padding: 3px:
+    color: #000;
+
+}
