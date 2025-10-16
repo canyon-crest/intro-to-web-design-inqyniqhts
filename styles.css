@@ -29,3 +29,34 @@ h3 {
     border-radius: 30px;
     padding-left: 15px;
 }
+
+p {
+    line-height: 2.2em;
+}
+
+img {
+    float : left;
+    width: 300px; 
+    border: #000000, solid, 4px;
+    border-radius: 30%;
+    margin-right: 20px;
+
+}
+
+a:link{
+    color:rgb(212, 72, 179);
+    font-style: italic;
+}
+
+a:visited {
+    color:rgb(96, 10, 105);
+}
+
+
+a:hover {
+    color: rgb(23, 132, 26);
+}
+
+a:active{
+    color: rgb(196, 36, 19);
+}
