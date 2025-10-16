@@ -46,7 +46,10 @@ img {
 a:link{
     color:rgb(212, 72, 179);
     font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
 }
+
 
 a:visited {
     color:rgb(96, 10, 105);
@@ -55,8 +58,10 @@ a:visited {
 
 a:hover {
     color: rgb(23, 132, 26);
+    text-decoration: underline;
 }
 
 a:active{
     color: rgb(196, 36, 19);
 }
+
