@@ -79,7 +79,8 @@ a:active{
 .highlight {
     font-weight: bold;
     background-color:azure;
-    padding: 3px:
+    padding: 3px;
+    border-radius: 15px; 
     color: #000;
 
 }
