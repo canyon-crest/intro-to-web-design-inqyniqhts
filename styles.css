@@ -146,17 +146,34 @@ a:active{
         padding: 0;
         border: none;
     }
-    body,h1,h2,h3,p,div{
-        background-color: rgb(190, 226, 247) !important;
+    body,div{
+        background-color: rgb(254, 194, 137) !important;
         border: none;
+    }
+    body{
+        padding: 20px;
+    }
+    #sidebar h3{
+        color:#000000;
+    }
+    p {
+        text-align: justify;
     }
 }
 
 @media (max-width:768px){
+    body,div{
+        background-color:rgb(238, 115, 150) !important;
+    }
     #sidebar{
         display: none;
     }
-    img{
-        clear:both;
+    img,#pic1, #pic2,#pic3{
+        float: none;
+        border: none;
+        width: 100%;
+    }
+    h3{
+        margin: 0 auto; /* center */
     }
 }
