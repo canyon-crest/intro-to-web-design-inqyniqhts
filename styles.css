@@ -136,3 +136,17 @@ a:active{
         width: 800px;
     }
 }
+
+@media (max-width:992px){
+    #container {
+        width: 100%;
+    }
+    #container, p{
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    body,h1,h2,h3,p,div{
+        background-color: rgb(190, 226, 247);
+    }
+}
