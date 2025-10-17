@@ -147,6 +147,16 @@ a:active{
         border: none;
     }
     body,h1,h2,h3,p,div{
-        background-color: rgb(190, 226, 247);
+        background-color: rgb(190, 226, 247) !important;
+        border: none;
+    }
+}
+
+@media (max-width:768px){
+    #sidebar{
+        display: none;
+    }
+    img{
+        clear:both;
     }
 }
