@@ -107,6 +107,8 @@ a:active{
     padding: 3px;
     border-radius: 15px; 
     color: #000;
+    transition: background-color 0.3s ease;
+
 
 }
 
@@ -180,4 +182,8 @@ a:active{
     h3{
         margin: 0 auto; /* center */
     }
+}
+
+a {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
