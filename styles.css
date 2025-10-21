@@ -55,11 +55,10 @@ h2 {
 }
 
 h3 {
+    text-align: center !important;
     border-left: double 20px #36677d;
     border-radius: 30px;
-    padding-left: 15px;
     padding: 15px;
-    margin: 30px !important;
     background-color:#c6f1e7;
     }
 
