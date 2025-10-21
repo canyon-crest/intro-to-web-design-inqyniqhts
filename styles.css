@@ -58,7 +58,7 @@ img {
 }
 
 a:link{
-    color:rgb(249, 174, 61);
+    color:rgb(26, 16, 123);
     font-style: italic;
     text-decoration: none;
     font-weight: bold;
@@ -79,17 +79,21 @@ a:active{
     color: rgb(196, 36, 19);
 }
 
-#pic1 {
+.smaller {
     width: 200px;
     height: 200px;
+}
+
+#pic1 {
     float: right;
 }
+
 
 #pic3 {
     float: right;
 }
 
-#p2 {
+.pink {
     border: #000 dotted 4px;
     padding: 20px; 
     background-color:#ee92bb;
