@@ -31,17 +31,35 @@ h2 {
     text-align: center;
     font-size: 1.2em;
     font-style: italic;
+    animation: bounceIn 2s ease;
 
+}
+
+@keyframes bounceIn {
+    0% {transform: scale(0.5); opacity: 0;}
+    60% {transform: scale(1.2); opacity: 1;}
+    100% {transform: scale(1);}
 }
 
 h3 {
     border-left: double 20px #36677d;
     border-radius: 30px;
     padding-left: 15px;
-}
+    padding: 15px;
+    }
 
 h3:hover {
     border-color:#e32279;
+    background: linear-gradient(270deg, #ff75b5, #f9c5d1, #c6f1e7);
+    background-size: 600% 600%;
+    animation: gradientShift 3s ease infinite;
+    color: #000;
+}
+
+@keyframes gradientShift {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 
 p {
@@ -49,12 +67,17 @@ p {
 }
 
 img {
-    float : left;
+    float: left;
     width: 300px; 
     border: #000000, solid, 4px;
     border-radius: 30%;
     margin-right: 20px;
+    animation: float 3s ease-in-out infinite;
+}
 
+@keyframes float {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-15px);}
 }
 
 a:link{
@@ -74,6 +97,8 @@ a:hover {
     color: rgb(23, 132, 26);
     text-decoration: underline;
 }
+
+
 
 a:active{
     color: rgb(196, 36, 19);
@@ -95,6 +120,7 @@ a:active{
 
 .pink {
     border: #000 dotted 4px;
+    padding-top: 30px;
     padding: 20px; 
     background-color:#ee92bb;
     border-radius: 10%;
@@ -186,4 +212,18 @@ a:active{
 
 a {
     transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 2em;
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
