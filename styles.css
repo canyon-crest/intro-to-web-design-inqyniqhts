@@ -82,6 +82,7 @@ p {
 }
 
 img {
+    background-color: white;
     float: left;
     width: 300px; 
     border: #000000, solid, 4px;
