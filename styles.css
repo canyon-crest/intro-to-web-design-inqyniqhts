@@ -15,7 +15,7 @@ body {
 
 h1 {
     background-color: rgb(192, 111, 149);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: #fff, solid, 3px;
     border-radius: 15px;
     padding: 20px;
@@ -23,6 +23,19 @@ h1 {
     width: 60%;
     text-align: center;
     margin:0px auto;
+    animation: slideIn 1.5s ease;
+
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 h2 {
@@ -46,6 +59,8 @@ h3 {
     border-radius: 30px;
     padding-left: 15px;
     padding: 15px;
+    margin: 30px !important;
+    background-color:#c6f1e7;
     }
 
 h3:hover {
@@ -215,15 +230,29 @@ a {
 }
 
 
-.logo {
+#star-left, #star-right {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 20px;
     font-size: 2em;
     animation: spin 6s linear infinite;
+    z-index: 999; /* stays on top */
+
+}
+
+#star-left {
+    left: 20px;
+    background-color: transparent !important;
+
+}
+
+#star-right {
+    right: 20px;
+    background-color: transparent !important;
+
 }
 
 @keyframes spin {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    
 }
